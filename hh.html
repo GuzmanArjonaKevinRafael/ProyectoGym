@@ -1,0 +1,64 @@
+<form method="POST" action="registros.php">
+    <div class="container tamanioContenedor">
+        <h1 class="registro" >Registro de Alumno</h1> 
+            <div class="row">
+                <div class="col-4 espacio">
+                    <label for="exampleInputEmail1" class="form-label">Nombres</label>
+                    <input type="text" name="Anombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" require>
+                </div>
+
+                <div class="col-4 espacio">
+                    <label for="exampleInputPassword1" class="form-label">Apellidos</label>
+                    <input type="text" name="Aapellido" class="form-control" id="exampleInputPassword1" require>
+                </div>
+
+                <div class="col-4 espacio">
+                    <label for="exampleInputPassword1" class="form-label">Numero telefonico</label>
+                    <input type="text" name="Atelefono" class="form-control" id="exampleInputPassword1" require>
+                </div>
+
+                <div class="col-6 espacio">
+                    <label for="exampleInputPassword1" class="form-label">Correo Electronico</label>
+                    <input type="text" name="Acorreo" class="form-control" id="exampleInputPassword1" require>
+                </div>
+                
+                <div class="col-6 espacio">
+                    <label for="exampleInputPassword1" class="form-label">Disciplina</label>
+                    <select class="form-select" name="disciplina" require>
+                        <option >Disciplina:</option>
+                        <option>Gym</option>
+                        <option>Ballet</option>
+                        <option>Artes marciales</option>
+                    </select>
+                </div>
+
+                <div class="col-12 espacio">
+                    <label for="exampleInputPassword1" class="form-label">Direccion</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Adireccion" require></textarea>
+                </div>
+
+                <div class="col-4 espacio">
+                    <label for="exampleInputEmail1" class="form-label">Tutor</label>
+                    <input type="text" name="Atutor" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <div class="col-4 espacio">
+                    <label for="exampleInputPassword1" class="form-label">Numero de emergencia</label>
+                    <input type="num" name="Aemergencianum" class="form-control" id="exampleInputPassword1">
+                </div>
+
+                <div class="col-4">
+                <br>
+                    <label for="exampleInputPassword1" class="form-label">Eres mayor de edad?</label>
+                    <input type="checkbox" name="" class="form-check-input checkFor18" id="exampleCheck1" onchange="cambiar()"> 
+                </div>
+
+                <div" id='formulario18'>
+
+                </div>
+
+            </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+</form>

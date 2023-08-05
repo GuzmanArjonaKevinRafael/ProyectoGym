@@ -1,0 +1,58 @@
+
+
+.Img-Logo-login{
+    border-radius: 15px;
+}
+.form-floating{
+    margin-bottom: 3%;
+    
+}
+.contenedor-pres{
+    width: 28%; 
+    margin: 0 auto; 
+    margin-top:8%;
+    font-size: arial;
+}
+
+.img-pres{
+    padding-top: 5%;
+    width: 70%;
+    display:block;
+    margin:auto;
+}
+
+.contenedor-modif{
+    width: 28%;  
+    margin: 0 auto;
+    margin-top:6%;
+    font-size: arial;
+}
+.img-modifRe{
+    padding-top: 5%;
+    width: 70%;
+    display:block;
+    margin:auto;    
+}
+.img-modif{
+    padding-top: 5%;
+    width: 74.5%;
+    display:block;
+    margin:auto;
+}
+.contendor-Principal{
+    width: 100%;
+    margin: 0 auto;
+}   
+.imgNavar{
+    width: 4%;
+    border-radius: 15px;
+}
+
+
+.color{
+    color: white;
+}
+
+.margin-img{
+    margin-top: 4.5%;
+}

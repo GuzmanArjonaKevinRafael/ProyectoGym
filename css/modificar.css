@@ -1,0 +1,17 @@
+.table-center{
+    text-align: start;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-center td{
+  
+    padding: 0 65px;
+}
+.center-title{
+    text-align: center;
+  
+}
+
+
